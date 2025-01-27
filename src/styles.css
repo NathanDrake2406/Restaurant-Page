@@ -151,11 +151,11 @@ nav button:hover {
 }
 
 .restaurant-image {
-  width: 100%;         /* Takes full width of container */
-  height: auto;        /* Maintain aspect ratio */
-  border-radius: 1rem; /* Rounded corners */
-  margin: 2rem auto;   /* Space above and below */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;        
+  height: auto;       
+  border-radius: 1rem; 
+  margin: 2rem auto;   
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 /* Menu Page */
@@ -185,24 +185,24 @@ nav button:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .menu-image {
-  width: 105%;         /* Takes full width of container */
-  height: auto;        /* Maintain aspect ratio */
-  border-radius: 1rem; /* Rounded corners */
-  margin: 2rem auto;   /* Space above and below */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 105%;    
+  height: auto;        
+  border-radius: 1rem; 
+  margin: 2rem auto;   
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);  /* Creates 2 columns */
-  gap: 2rem;  /* Space between grid items */
+  grid-template-columns: repeat(2, 1fr);  
+  gap: 2rem;  
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
 }
 .menu-image:last-child {
-  grid-column: 1 / -1;  /* Spans full width */
-  width: 50%;          /* Takes up half the space */
-  margin: 0 auto;      /* Centers horizontally */
+  grid-column: 1 / -1;  
+  width: 50%;          
+  margin: 0 auto;     
 }
 
 /* Contact Page */
